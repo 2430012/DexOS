@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo general */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f7fc;
@@ -15,7 +13,6 @@ body {
     margin: 0;
 }
 
-/* Estilos del encabezado */
 header {
     background: linear-gradient(135deg, #6c63ff, #3f87f5);
     color: white;
@@ -24,6 +21,11 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 200px;
+    height: 60px;
 }
 
 header .logo {
@@ -50,15 +52,13 @@ header nav a:hover {
     color: #ffd700;
 }
 
-/* Estilo principal */
 main {
     padding: 40px 10%;
 }
 
-/* Contenedor de contenido */
 .content {
     background-color: white;
-    padding: 40px;
+    padding: 60px;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
@@ -71,25 +71,24 @@ main {
 
 .section-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .section-header h1 {
     font-size: 36px;
     color: #333;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .section-body {
-    font-size: 18px;
+    font-size: 24px;
     color: #555;
     text-align: justify;
 }
 
-/* Botones */
 button {
     background-color: #6c63ff;
-    color: white;
+    color: rgb(195, 195, 195);
     border: none;
     padding: 12px 25px;
     font-size: 18px;
@@ -103,21 +102,6 @@ button:hover {
     transform: translateY(-3px);
 }
 
-/* Estilo del pie de página */
-footer {
-    background-color: #f4f7fc;
-    padding: 20px;
-    text-align: center;
-    margin-top: 40px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-footer .footer-content {
-    font-size: 14px;
-    color: #777;
-}
-
-/* Responsive Design */
 @media (max-width: 768px) {
     main {
         padding: 40px 5%;
